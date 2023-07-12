@@ -1,0 +1,10 @@
+:root {
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-de-fundo: #d8d8d8;
+    --cor-de-link: #000;
+    --preto-100 : #000000;
+    --azul-10 : #65cff3;
+    --preto-branco : #e7e7e4;
+    --azul-100: #2a7ae4;
+  }

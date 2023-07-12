@@ -1,0 +1,25 @@
+/*Sección Title*/
+
+section.title {
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+/*Mobil*/
+@media screen and (max-width: 425px) {
+}
+
+/*Tablet*/
+@media screen and (min-width: 426px) and (max-width: 767px) {
+}
+/*Escritorio*/
+@media screen and (min-width: 768px) {
+  .about__container {
+    width: 1136px;
+  }
+}

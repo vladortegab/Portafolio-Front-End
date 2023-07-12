@@ -1,0 +1,39 @@
+.skills__line {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+@media screen and (max-width: 425px) {
+  .skills__line {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 32px;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .skills__line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+    padding: 32px;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills__line {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    padding: 32px;
+    align-items: center;
+    gap: 16px;
+  }
+}
+

@@ -1,0 +1,16 @@
+.experiencie__box {
+  display: flex;
+  width: 1136px;
+  height: 406px;
+  align-items: center;
+  gap: 16px;
+  padding: 0px;
+}
+
+.experience__img {
+  width: 752px;
+  flex-shrink: 0;
+  align-self: stretch;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}

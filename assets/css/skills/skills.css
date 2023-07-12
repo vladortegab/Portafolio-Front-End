@@ -1,0 +1,12 @@
+/*Sección Skills*/
+section.skills {
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-self: stretch; /* este me estira el renglon */
+  align-items: center;
+  gap: 32px;
+  color: var(--color-de-fuente);
+  justify-content: center;
+  
+}

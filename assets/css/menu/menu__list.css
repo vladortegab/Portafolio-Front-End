@@ -1,0 +1,23 @@
+.menu__list {
+  width: 653px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+/*Mobil*/
+@media screen and (max-width: 425px) {
+  .menu__list {
+    display: none;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .menu__list {
+    display: none;
+  }
+}
+/*Escritorio*/
+@media screen and (min-width: 768px) {
+}

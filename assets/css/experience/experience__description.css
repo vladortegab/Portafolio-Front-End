@@ -1,0 +1,54 @@
+.experience__description {
+  display: flex;
+  width: 560px;
+  align-items: flex-start;
+  gap: 16px;
+}
+.experience__repo {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--azul-100, #2a7ae4);
+}
+.experiencia__botao--repo {
+  background-color: var(--preto-branco);
+  color: var(--azul-100, #2a7ae4);
+  border: 0px solid var(---azul-100, #ffdf);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.experience__demo {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--azul-100, #2a7ae4);
+}
+.experience__botao--demo {
+  background-color: var(--color-de-boton);
+  color: var(---azul-100, #fff);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.experience__boton--repo:hover {
+  cursor: pointer;
+  background-color: var(--preto-branco);
+  color: var(--preto-100);
+}
+
+.experience__boton--demo:hover { 
+  cursor: pointer;
+  background-color: var(--cor-de-fundo);
+  color: var(---preto-branco);
+  border: 1px solid var(--preto-branco);
+}

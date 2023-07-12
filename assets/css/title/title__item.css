@@ -1,0 +1,30 @@
+.title__network__item {
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: flex-start;
+  }
+/*Mobil*/
+  @media screen and (min-width: 425px) {
+    .title__network__item {
+      color: var(--preto-100, #464646);
+      font-size: 1.4rem;
+      justify-content: right;
+      font-weight: 600;
+      
+    }
+    
+  }
+  @media screen and (min-width: 426px) and (max-width: 767px) {
+    .title__network__item {
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.9rem;
+      padding-right: 3.269rem;
+      
+    }
+  
+  }

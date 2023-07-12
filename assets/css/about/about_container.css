@@ -1,0 +1,26 @@
+.about__container {
+  display: flex;
+  width: 1136px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+/*Mobil*/
+@media screen and (max-width: 425px) {
+  .about__container {
+    width: 100%;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .about__container {
+    width: 100%;
+  }
+}
+/*Escritorio*/
+@media screen and (min-width: 768px) {
+  .about__container {
+    width: 1136px;
+  }
+}

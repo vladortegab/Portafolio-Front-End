@@ -1,0 +1,106 @@
+.title__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  text-align: justify;
+}
+.title__profile {
+  border-radius: 100%;
+  align-self: flex-start;
+}
+.title__container {
+  display: flex;
+  width: 1136px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  
+}
+.title__bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.title__subsection {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: var(--preto-100, #464646);
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/*Mobil*/
+@media screen and (max-width: 425px) {
+  .title__div {
+    display: flex;
+    justify-content: right;
+    align-items: initial;
+    flex-direction: column;
+  }
+  .title__profile {
+    width: 98px;
+    height: 98px;
+  }
+  .title__bio {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 2.583rem;
+  }
+  .title__subsection {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 14px;
+    padding-top: 1.6px;
+    padding-bottom: 16px;
+    line-height: 1.644px;
+  }
+  .title__container {
+    width: 100%;
+  }
+}
+/*Tablet*/
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .title__div {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .title__profile {
+    width: 146px;
+    height: 146px;
+  }
+  .title__bio {
+    font-weight: 700;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .title__subsection {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 16px;
+    padding-top: 0.8px;
+    padding-bottom: 15px;
+    line-height: 1.878px;
+  }
+  .title__container {
+    width: 100%;
+  }
+}
+/*Escritorio*/
+@media screen and (min-width: 768px) {
+  .title__container {
+    width: 778px;
+  }
+}
+
